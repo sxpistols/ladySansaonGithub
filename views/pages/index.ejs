@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <%- include('../partials/head'); %>
+  <%- include ("../partials/header.ejs") %>
 </head>
-<body class="container">
 
-<header>
-  <%- include('../partials/header'); %>
-</header>
+<body>
 
-<main>
-  <div class="jumbotron">
-    <h1>This is great</h1>
-    <p>Welcome to templating using EJS</p>
-  </div>
-</main>
+  <%- include ("../partials/nav.ejs") %>
 
-<footer>
-  <%- include('../partials/footer'); %>
-</footer>
+  <main>
+    <div class="jumbotron">
+      <h1>This is great</h1>
+      <p>Welcome to templating using EJS</p>
+    </div>
+  </main>
+
 
 </body>
 </html>
